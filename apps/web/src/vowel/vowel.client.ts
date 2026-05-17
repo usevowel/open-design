@@ -148,6 +148,8 @@ Help users move around the app and understand where they are.`,
       model: 'openai/gpt-oss-120b',
       voice: 'Timothy',
       language: 'en-US',
+      stt: { provider: 'groq-whisper' },
+      tts: { provider: 'grok' },
       initialGreetingPrompt: `Welcome the user to Open Design. Briefly mention the current area from context (if any), then ask what they want to do next.`,
     },
     onUserSpeakingChange: (isSpeaking) => {
