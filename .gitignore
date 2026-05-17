@@ -59,6 +59,7 @@ docs/superpowers/
 # Local secrets (PostHog keys, BYOK creds for local testing, etc.)
 .env.local
 .env.*.local
+apps/web/.env
 # Local design assistant context
 .impeccable.md
 

@@ -2,6 +2,8 @@
 
 import dynamic from 'next/dynamic';
 
+import { VowelShell } from '../../src/vowel/VowelShell';
+
 // The product is a fully client-driven SPA — every component reads
 // localStorage, window.location, etc. — so we opt out of static-time
 // rendering for the entire tree. This keeps `next build --output export`
@@ -13,5 +15,9 @@ const App = dynamic(() => import('../../src/App').then((m) => m.App), {
 });
 
 export function ClientApp() {
-  return <App />;
+  return (
+    <VowelShell>
+      <App />
+    </VowelShell>
+  );
 }

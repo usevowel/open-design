@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "vowel-react": {
+      "source": "usevowel/skills",
+      "sourceType": "github",
+      "skillPath": "skills/vowel-react/SKILL.md",
+      "computedHash": "23c9ec4bb900d7106f8a88c22ed8e39c279dfd96ccbd400623234a87a07aec95"
+    }
+  }
+}
